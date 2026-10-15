@@ -1,0 +1,12 @@
+<?php
+
+$host    = 'localhost';
+$user    = 'root';
+$pass    = '';
+$db      = 'profile';
+
+$conn =  mysqli_connect($host, $user, $pass, $db);
+
+if ($conn) {
+    echo "connected";
+}
