@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 15, 2026 at 01:55 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Generation Time: Oct 19, 2026 at 01:13 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -35,6 +35,14 @@ CREATE TABLE `home` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Dumping data for table `home`
+--
+
+INSERT INTO `home` (`id`, `name`, `title`, `image`) VALUES
+(7, 'Kimberley Cook', 'Sit quibusdam volup', '../storage/6ad5f9601e477MOckup.jpg'),
+(8, 'Julie Richardson', 'Tempor nulla esse di', '../storage/6ad5f986d2602Letterhaed 01-01.jpg');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -52,7 +60,7 @@ ALTER TABLE `home`
 -- AUTO_INCREMENT for table `home`
 --
 ALTER TABLE `home`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

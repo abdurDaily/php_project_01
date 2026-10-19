@@ -7,6 +7,4 @@ $db      = 'profile';
 
 $conn =  mysqli_connect($host, $user, $pass, $db);
 
-if ($conn) {
-    echo "connected";
-}
+
